@@ -21,6 +21,7 @@ library(tidyverse)
 library(palmerpenguins)
 library(knitr)
 library(xaringanthemer)
+library(readr)
 ```
 
 ```{r setup, include=FALSE}
