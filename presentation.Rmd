@@ -97,15 +97,26 @@ include_graphics("Screenshot 2022-10-26 at 14.23.53.png")
 
 ---
 
-# xaringan
+Data Analysis Plan
 
-- The presentation is created using the `xaringan` package
 
-- Use `---` to separate slides and `--` for incremental builds
+The four main variables we will be focusing our analysis on will be:
+
+1. Age Group 
+2. Sex 
+3. Discharge Count 
+4. Patient count 
+
+Comparison Groups:
+
+- There are 5 comparable sub-groups within the "AgeGroup" variable; (0-17, 18-24, 25-39, 40-64 and 65+)
+
+- There are 2 comparable sub-groups within the "Sex" variable; (male and female) 
+
+
 
 --
 
-- Like this
 
 ---
 
