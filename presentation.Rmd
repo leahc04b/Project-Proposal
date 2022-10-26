@@ -53,7 +53,9 @@ class: inverse, center, middle
 
 Introduction
 
-- The dataset we have chosen comes from the Public Health Scotland website, where NHS organisations can use this platform to publish and share their open datasets that meet the requirements set out in the Scottish Government Open Data Strategy. Before data is released it is first assessed for statistical disclosure. 
+- The dataset we have chosen comes from the Public Health Scotland website, where NHS organisations can use the platform to publish and share their own datasets that meet the requirements set out in the Scottish Government Open Data Strategy.
+
+- Before data is released it is first assessed for statistical disclosure to ensure the data is reliable and as accurate as possible.
 
 
 ---
