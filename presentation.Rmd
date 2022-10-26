@@ -77,12 +77,17 @@ Some of the key the variables in this data set include:
 - PatientCount: The total number of patients. A patient is defined as an individual discharged from hospital (including as a transfer out) at least once during the financial year. Regardless of how many times they have been discharged during the financial year, patients are counted only once in each financial year at the Scotland level. However, if their age band and/or sex changes during the year, they will be counted more than once.
 
 
-
 ---
 
 class: inverse, middle, center
 
-# Using xaringan
+```{r, echo = FALSE}
+
+include_graphics("Screenshot 2022-10-26 at 14.23.53.png")
+
+
+```
+
 
 ---
 
