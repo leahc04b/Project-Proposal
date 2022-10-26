@@ -28,7 +28,7 @@ library(xaringanthemer)
 knitr::opts_chunk$set(fig.retina = 3, dpi = 300, fig.width = 6, fig.asp = 0.618, out.width = "80%")
 ```
 
-```{r load-https://www.opendata.nhs.scot/dataset/mental-health-inpatient-activity/resource/83b38aa6-73c0-4489-b344-11081e7aa0ed, include=FALSE}
+```{r load-data, include=FALSE}
 
 
 ```
