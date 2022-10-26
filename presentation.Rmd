@@ -123,6 +123,21 @@ Preliminary Exploratory Data Analysis
 ggplot(age_and_sex, aes(x = AgeGroup, y = PatientsCount)) +
 geom_point()
 
+age_and_sex %>%  
+  select(DischargeCount) %>% 
+  summarise(avg_ds = mean(DischargeCount),
+            max_ds = max(DischargeCount),
+            min_ds = min(DischargeCount)) 
+
 ```
+---
+---
+Key Summary Statistics:
 
+Average Discharge Count = 284
+Maximum Discharge Count = 11750
+Minimum Discharge Count = 0
 
+---
+
+---
