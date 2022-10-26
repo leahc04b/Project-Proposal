@@ -51,7 +51,13 @@ How a patients' age and sex affects the likelihood of discharge from care.
 
 class: inverse, center, middle
 
-Introduction
+```{r, echo = FALSE,out.width = "40%", fig.align = "centre",}
+include_graphics("Screenshot 2022-10-26 at 14.38.43.png")
+
+```
+
+
+Introduction 
 
 - The dataset we have chosen comes from the Public Health Scotland website, where NHS organisations can use the platform to publish and share their own datasets that meet the requirements set out in the Scottish Government Open Data Strategy.
 
