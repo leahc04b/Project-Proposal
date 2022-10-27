@@ -118,11 +118,22 @@ Comparison Groups:
 
 Preliminary Exploratory Data Analysis
 
-```{r, echo=FALSE}
+```{r, echo = FALSE}
 
 ggplot(age_and_sex, aes(x = AgeGroup, y = PatientsCount)) +
-geom_point()
+geom_point() +
+  labs(title = "Amount of Patients for different AgeGroups")
+```
+---
+```{r, echo = FALSE}
+ggplot(age_and_sex, aes(x = AgeGroup, y = DischargeCount)) +
+geom_point()+
+  labs(title = "Amount of Discharge for different AgeGroups")
 
+
+```
+---
+```{r, echo = FALSE}
 age_and_sex %>%  
   select(DischargeCount) %>% 
   summarise(avg_ds = mean(DischargeCount),
@@ -130,8 +141,6 @@ age_and_sex %>%
             min_ds = min(DischargeCount)) 
 
 ```
----
----
 Key Summary Statistics:
 
 Average Discharge Count = 284
@@ -139,5 +148,12 @@ Maximum Discharge Count = 11750
 Minimum Discharge Count = 0
 
 ---
+Sammary
 
+- 40~64 AgeGroup
+ - highest count on both graphs
+ 
+- 65+ AgeGroup
+ - 2nd highest count on both graphs
+ - DischargeCount is much lower than PatientCount
 ---
