@@ -180,7 +180,6 @@ Average Discharge Count = 284
 **65+ Age Group:**
 
  - Second highest count on both graphs.
- - Higher patient than discharge count. 
  - Still a lot of analysis to be carried out.
  
 ---
