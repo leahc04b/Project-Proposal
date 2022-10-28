@@ -130,20 +130,24 @@ Comparison Groups:
 
 ggplot(age_and_sex, aes(x = AgeGroup, y = PatientsCount)) +
 geom_point() +
-  labs(title = "Number of Patients in Different Age Groups", 
+  labs(title = "Number of Patients in Each Age Group", 
        x = "Age Group",
        y = "Patient Count")
 ```
+
+
+
 ---
 ```{r, echo = FALSE}
 ggplot(age_and_sex, aes(x = AgeGroup, y = DischargeCount)) +
 geom_point()+
-  labs(title = "Discharge Count Across Different Age Groups",
+  labs(title = "Discharge Count by Age Group",
        x = "Age Group",
        y = "Discharge Count")
-
-
 ```
+
+
+
 ---
 ```{r, echo = FALSE}
 age_and_sex %>%  
