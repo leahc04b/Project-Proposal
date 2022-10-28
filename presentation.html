@@ -4,7 +4,7 @@
     <title>Mental Health Inpatient Activity</title>
     <meta charset="utf-8" />
     <meta name="author" content="Team name   Leah Cookson, Sophie Arthur, Aliya Mosha, Roey Nie" />
-    <meta name="date" content="2022-10-27" />
+    <meta name="date" content="2022-10-28" />
     <script src="libs/header-attrs-2.16/header-attrs.js"></script>
     <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
   </head>
@@ -25,7 +25,7 @@ class: center, middle, inverse, title-slide
 ### University of Edinburgh
 ]
 .date[
-### 2022-10-27
+### 2022-10-28
 ]
 
 ---
@@ -41,9 +41,9 @@ class: center, middle, inverse, title-slide
 
 class: center, middle
 
-Research Question - 
+**_Research Question_**  
 
-How a patients' age and sex affects the likelihood of discharge from care.
+How a patients' age and sex affects the likelihood of discharge from NHS hospital care.
 
 ---
 
@@ -52,7 +52,7 @@ class: inverse, center, middle
 &lt;img src="Screenshot 2022-10-26 at 14.38.43.png" width="40%" /&gt;
 
 
-Introduction 
+**_Introduction_** 
 
 - The dataset we have chosen comes from the Public Health Scotland website, where NHS organisations can use the platform to publish and share their own datasets that meet the requirements set out in the Scottish Government Open Data Strategy.
 
@@ -61,36 +61,43 @@ Introduction
 
 ---
 
-Cases and Variables 
+**_Cases and Variables_** 
 
 Each individual case (id), in this data set represents an individual patient.
 
 Some of the key the variables in this data set include:
 
-- FiniancialYear: Financial years start on 1 April and end on 31 March. For example, financial year 2017/2018 covers the period 1 April 2017 – 31 March 2018.
+- _FiniancialYear_: 
+Financial years start on 1 April and end on 31 March. For example, financial year 2017/2018 covers the period 1 April 2017 – 31 March 2018.
 
-- AgeGroup: Refers to the patient's age on admission. Ages have been arranged in five different groups.
+- _AgeGroup_: 
+Refers to the patient's age on admission. Ages have been arranged in five different groups.
 
-- Sex: The patient's sex, as recorded on admission.
+- _Sex_: 
+The patient's sex, as recorded on admission.
 
-- DischargeCount: The total number of discharges. A hospital discharge marks the end of an episode of care. Discharges include deaths, transfers to other specialties/significant facilities and hospitals, and discharges home or to other regular place of residence.
+- _DischargeCount_:
+The total number of discharges. A hospital discharge marks the end of an episode of care. Discharges include deaths, transfers to other specialties/significant facilities and hospitals, and discharges home or to other regular place of residence.
 
-- PatientCount: The total number of patients. A patient is defined as an individual discharged from hospital (including as a transfer out) at least once during the financial year. Regardless of how many times they have been discharged during the financial year, patients are counted only once in each financial year at the Scotland level. However, if their age band and/or sex changes during the year, they will be counted more than once.
+- _PatientCount_: 
+The total number of patients. A patient is defined as an individual discharged from hospital (including as a transfer out) at least once during the financial year. Regardless of how many times they have been discharged during the financial year, patients are counted only once in each financial year at the Scotland level. However, if their age band and/or sex changes during the year, they will be counted more than once.
 
 
 ---
 
 class: inverse, middle, center
 
+**_A Snap Shot of the Data_** 
+
 &lt;img src="Screenshot 2022-10-26 at 14.23.53.png" width="80%" /&gt;
 
 
 ---
 
-Data Analysis Plan
+**_Data Analysis Plan_**
 
 
-The four main variables we will be focusing our analysis on will be:
+The four main variables we expect to be the focus of our  analysis are:
 
 1. Age Group 
 2. Sex 
@@ -106,7 +113,7 @@ Comparison Groups:
 --- 
 ---
 
-Preliminary Exploratory Data Analysis
+**_Preliminary Exploratory Data Analysis_**
 
 &lt;img src="presentation_files/figure-html/unnamed-chunk-4-1.png" width="80%" /&gt;
 ---
@@ -119,21 +126,32 @@ Preliminary Exploratory Data Analysis
 ##    &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;
 ## 1   284.  11750      0
 ```
-Key Summary Statistics:
+**_Key Summary Statistics:_**
 
-Average Discharge Count = 284
 Maximum Discharge Count = 11750
+
 Minimum Discharge Count = 0
 
----
-Sammary
+Average Discharge Count = 284
 
-- 40~64 AgeGroup
- - highest count on both graphs
+---
+**_Summary_**
+
+**0~17 Age group:**
+
+- Had the lowest patient and discharge count of all the age groups.
+- This is a result we hypothesized before carrying out any data analysis.
+
+**40~64 Age Group:**
+
+ - Had the highest patient and discharge count across both graphs.
+- Possible reasons may be due to that age group making up a large demographic within the UK.
  
-- 65+ AgeGroup
- - 2nd highest count on both graphs
- - DischargeCount is much lower than PatientCount
+**65+ Age Group:**
+
+ - Second highest count on both graphs.
+ - This result was slightly unexpected, however there is still a lot of analysis to be carried out.
+ 
 ---
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
