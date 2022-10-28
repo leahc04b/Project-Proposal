@@ -147,7 +147,6 @@ geom_point()+
 ```
 
 
-
 ---
 ```{r, echo = FALSE}
 age_and_sex %>%  
