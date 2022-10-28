@@ -175,11 +175,12 @@ Average Discharge Count = 284
 **40~64 Age Group:**
 
  - Had the highest patient and discharge count across both graphs.
-- Possible reasons may be due to that age group making up a large demographic within the UK.
+- Making up a large demographic within the UK.
  
 **65+ Age Group:**
 
  - Second highest count on both graphs.
- - This result was slightly unexpected, however there is still a lot of analysis to be carried out.
+ - Higher patient than discharge count. 
+ - Still a lot of analysis to be carried out.
  
 ---
